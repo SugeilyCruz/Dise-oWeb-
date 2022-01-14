@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: coral;
+    min-height: 1800px;
+    min-width: 2000px;
+    z-index: 1;
+}
+
+.padre{
+    position: relative;
+    margin-left: 20px;
+    width: 800px;
+    height: 600px;
+    background-color: aquamarine;
+    z-index: -2;
+}
+
+.hijo{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+.hijo--estatico{
+    position: static;
+    top: 50px;
+    left: 100px;
+}
+
+.hijo--relativo{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.hijo--absoluto{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.hijo--fijo{
+    position: fixed;
+    z-index: -2;
+}
+
+.hijo--sticky{
+    position: sticky;
+    top: 100px;
+}

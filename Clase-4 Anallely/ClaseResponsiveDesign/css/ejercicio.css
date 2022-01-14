@@ -1,0 +1,83 @@
+html{
+	font-size: 1rem;
+}
+
+body{
+	background-color: #fcf9ed;
+	font-family: 'Lato', sans-serif;
+	color: #444;
+}
+ 
+nav{
+	/* border-style: solid; */
+	position: relative;
+}
+details{
+	width: 300px;
+	/* border-style: solid; */
+	display: inline;
+	position: absolute;
+	right: 0;
+	background-color: floralwhite;
+	text-align: right;
+}
+#logo-nav{
+	width: 50px;
+	border-style: solid;
+}
+.link-nav-desktop{
+	display: none;
+}
+.links-nav a{
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+	color: violet;
+	text-align: right;
+	line-height: 2;
+	margin-right: 12px;
+}
+h1{
+	font-size: 8vh;
+	font-family: 'Oswlad',sans-serif;
+	/* border-style: solid; */
+	margin: 0;
+	margin-top: 4rem;
+
+}
+p{
+	font-size: 1.2rem;
+}
+.landing-p{
+	max-width: 80%;
+}
+#img-matt-desktop{
+	display: none;
+}
+#sobre{
+	display: none;
+}
+.landing-h2{
+	color: darkgray;
+	border-bottom-style: solid;
+	max-width: 65%;
+}
+.btn{
+	border-radius: 32px;
+	font-size: 1.2rem;
+	background-color: chocolate;
+	border-style: none;
+	color: floralwhite;
+	padding: 16px 20px;
+}
+.btn-naranja{
+	background-color: chocolate;
+	color: floralwhite;
+}
+#img-matt-mobile{
+	max-width: 90%;
+	display: block;
+	margin: auto; /*Elementos de bloque*/
+	margin-top: 2rem;
+}
+/* 1EM= 16px -REM  */

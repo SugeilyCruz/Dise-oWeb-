@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+nav, footer{
+    background-color: rgb(42, 116, 165);
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
+main{
+    background-color: rgb(179, 218, 219);
+}
+fieldset{
+    border-color: black;
+}
+.personalizando{
+    display: inline;
+    margin-left: 3rem;
+}
+input, textarea{
+    background-color: rgb(108, 108, 143);
+    color: rgb(194, 194, 255);
+}

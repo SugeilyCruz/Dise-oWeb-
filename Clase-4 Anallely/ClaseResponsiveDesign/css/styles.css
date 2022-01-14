@@ -1,0 +1,44 @@
+body{
+	font-family: monospace;
+	background-color: #bacdff;
+	border-style: dashed;
+	/* width: 50vw; */
+}
+#h2-pequeña{
+	background-color: purple;
+	/* VW % del ancho de la pantalla */
+	width: 50vw;
+	/* Alto */
+	height: 20vh;
+	/* Para elementos de bloque nos ayuda a centrar los elementos */
+	margin: auto;
+	color: rgb(16, 16, 20);
+}
+#h2-mediana, #h2-grande, #impreso{
+	display: none;
+}
+.caja2{
+	background-color: rgb(189, 7, 46);
+	padding: 20px;
+	width: 500px;
+	max-width: 50vw; /*Este elemento no puede medir mas del 50% del ancho */
+	min-width: 20vw;
+}
+#Mimg{
+	max-width: 90vw;
+}
+.contenedor{
+	background-color: thistle;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 90%;
+}
+.caja-grande{
+	background-color: tomato;
+	padding: 20px;
+	width: 50%;
+}
+.caja-pequeña{
+	background-color: violet;
+	width: 40%;
+}

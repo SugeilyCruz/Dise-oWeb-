@@ -1,0 +1,17 @@
+body{
+    margin: 2% 15%;
+}
+table{
+    border-color: black;
+    background-color: cadetblue;
+    color: rgb(41, 56, 56);
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+header{
+    color: rgb(22, 21, 17);
+    background-color: darkgray;
+}

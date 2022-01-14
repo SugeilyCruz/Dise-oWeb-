@@ -1,0 +1,50 @@
+/* Bootstrap: https://getbootstrap.com/docs/5.1/layout/breakpoints/ */
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	#img-matt-desktop{
+        /* display: block; */
+        display: inline;
+        width: 40%;
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+    #img-matt-mobile{
+        display: none;
+    }
+    .matt-here{
+        width: 50%;
+        /* display: inline; */
+        border-style: solid;
+        margin-top: 20%;
+        /* position: relative;
+        top: 200%; */
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+
+
+}

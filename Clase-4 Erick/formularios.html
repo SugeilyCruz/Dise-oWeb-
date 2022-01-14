@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Clase-4 Erick/css/styles.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <nav><span>Aqui es la nav, dentro del Header</span></nav>
+    </header>
+    <main>
+        <h2>Hamburguesas</h2>
+        <form action="">
+            <fieldset>
+                <legend> Datos personales</legend>
+                <div>
+                    <label for="in_nombre"> Nombre:</label>
+                    <input type="text" id="in_nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="in_apellidos"> Apellidos:</label>
+                    <input type="text" id="in_apellidos">
+                </div>
+                <br>
+                <div>
+                    <label for="in_email"> Email:</label>
+                    <input type="email" name="" id="in_email">
+                </div>
+                <br>
+                <div>
+                    <label for="in_contra"> Contraseña:</label>
+                    <input type="password" name="" id="in_contra">
+                </div>
+                <br>
+                <div>
+                    <label for="">Celular:</label>
+                    <input type="tel" name="" id="">
+                </div>
+                <br>
+                <div>
+                    <label for="">Numeros:</label>
+                    <input type="number" name="" id="">
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <fieldset class="personalizando">
+                    <legend>Personaliza tu Hamburguesa</legend>
+                    <p><label for="tam"><input type="radio" name="tam" id="tam">Chica</label></p>
+                    <p><label for="med"><input type="radio" name="tam" id="med">Mediana</label></p>
+                    <p><label for="gra"><input type="radio" name="tam" id="gra">Grande</label></p>
+                </fieldset>
+                <fieldset class="personalizando">
+                    <legend>Ingredientes</legend>
+                    <p><label for="pepi"><input type="checkbox" name="Ingredientes" id="pepi">Pepinillos</label></p>
+                    <p><label for="most"><input type="checkbox" name="Ingredientes" id="most">Mostaza</label></p>
+                    <p><label for="cat"><input type="checkbox" name="Ingredientes" id="cat">Catsup</label></p>
+                    <p><label for="ques"><input type="checkbox" name="Ingredientes" id="ques">Queso extra</label></p>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend> Datos de envio</legend>
+                    <label for=""><input type="text-area" name="" id="" placeholder="Direccion de envio"></label>
+                    <br>
+                    <label for=""><input type="text-area" name="" id="" placeholder="Calle y numero"></label>
+                    <br>
+                    <br>
+                    <textarea name="" id="" cols="80" rows="5" placeholder="Intrucciones de entrega"></textarea>
+                    <br>
+                    <label for=""> Hora de entrega<input type="time" name="" id=""></label>
+                    <br>
+                    <label for=""> Fecha:<input type="date" name="" id=""></label>
+                </fieldset>
+            </div>
+            <br>
+            <!-- <input type="submit" name="" id=""> -->
+            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-anchor" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2" />
+                <circle cx="12" cy="6" r="3" />
+              </svg></button>
+        </form>
+    </main>
+    <footer>
+        <span>Aqui es el footer</span>
+    </footer>
+</body>
+</html>
