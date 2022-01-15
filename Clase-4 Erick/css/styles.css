@@ -20,3 +20,12 @@ input, textarea{
     background-color: rgb(108, 108, 143);
     color: rgb(194, 194, 255);
 }
+.contenedor__img{
+    text-align: center;
+}
+.img{
+    /* text-align: center; */
+    clip-path: circle(50% at 50% 50%);
+    /* clip-path: ellipse(45% 35% at 50% 55%); */
+}
+/* Dominio dns-ip */
